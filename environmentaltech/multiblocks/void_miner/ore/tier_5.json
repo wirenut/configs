@@ -37,6 +37,11 @@
     },
     {
       "target": "black",
+      "weight": 24,
+      "id": "environmentaltech:lonsdaleite_crystal"
+    },
+    {
+      "target": "black",
       "weight": 1000,
       "id": "OD:oreCoal"
     },
@@ -147,11 +152,6 @@
     },
     {
       "target": "light_blue",
-      "weight": 169,
-      "id": "OD:oreMithril"
-    },
-    {
-      "target": "light_blue",
       "weight": 203,
       "id": "OD:oreOsmium"
     },
@@ -159,11 +159,6 @@
       "target": "black",
       "weight": 128,
       "id": "OD:oreFluidCrudeOilSand"
-    },
-    {
-      "target": "black",
-      "weight": 120,
-      "id": "OD:oreFluidCrudeOilShale"
     },
     {
       "target": "green",
@@ -238,7 +233,7 @@
     {
       "target": "black",
       "weight": 222,
-      "id": "OD:oreThroium"
+      "id": "OD:oreThorium"
     },
     {
       "target": "siver",
@@ -297,168 +292,253 @@
     },
     {
       "target": "red",
-      "weight": 200,
+      "weight": 100,
       "id": "OD:oreRuby"
     },
     {
       "target": "green",
-      "weight": 200,
+      "weight": 100,
       "id": "OD:orePeridot"
     },
     {
       "target": "orange",
-      "weight": 200,
+      "weight": 100,
       "id": "OD:oreTopaz"
     },
     {
       "target": "purple",
-      "weight": 200,
+      "weight": 100,
       "id": "OD:oreTanzanite"
     },
     {
       "target": "cyan",
-      "weight": 200,
+      "weight": 100,
       "id": "OD:oreMalachite"
     },
     {
       "target": "blue",
-      "weight": 200,
+      "weight": 100,
       "id": "OD:oreSapphire"
     },
     {
       "target": "orange",
-      "weight": 200,
+      "weight": 100,
       "id": "OD:oreGarnet"
     },
     {
       "target": "yellow",
-      "weight": 200,
-      "id": "OD:oreHeliodore"
+      "weight": 100,
+      "id": "OD:oreHeliodor"
     },
     {
       "target": "green",
-      "weight": 200,
+      "weight": 100,
       "id": "OD:oreBeryl"
     },
     {
       "target": "green",
-      "weight": 200,
+      "weight": 100,
       "id": "OD:oreIndicolite"
     },
     {
       "target": "blue",
-      "weight": 200,
+      "weight": 100,
       "id": "OD:oreAquamarine"
     },
     {
       "target": "purple",
-      "weight": 200,
+      "weight": 100,
       "id": "OD:oreIolite"
     },
     {
       "target": "purple",
-      "weight": 200,
+      "weight": 100,
       "id": "OD:oreAmethyst"
     },
     {
       "target": "pink",
-      "weight": 200,
+      "weight": 100,
       "id": "OD:oreAgate"
     },
     {
       "target": "pink",
-      "weight": 200,
+      "weight": 100,
       "id": "OD:oreMorganite"
     },
     {
       "target": "black",
-      "weight": 200,
+      "weight": 100,
       "id": "OD:oreOnyx"
     },
     {
       "target": "white",
-      "weight": 200,
+      "weight": 100,
       "id": "OD:oreOpal"
     },
     {
       "target": "red",
-      "weight": 200,
+      "weight": 100,
       "id": "OD:oreCarnelian"
     },
     {
       "target": "brown",
-      "weight": 200,
+      "weight": 100,
       "id": "OD:oreSpinel"
     },
     {
       "target": "brown",
-      "weight": 200,
+      "weight": 100,
       "id": "OD:oreCitrine"
     },
     {
       "target": "yellow",
-      "weight": 200,
+      "weight": 100,
       "id": "OD:oreJasper"
     },
     {
       "target": "yellow",
-      "weight": 200,
+      "weight": 100,
       "id": "OD:oreGoldenBeryl"
     },
     {
       "target": "green",
-      "weight": 200,
+      "weight": 100,
       "id": "OD:oreMoldavite"
     },
     {
       "target": "cyan",
-      "weight": 200,
+      "weight": 100,
       "id": "OD:oreTurquoise"
     },
     {
       "target": "cyan",
-      "weight": 200,
+      "weight": 100,
       "id": "OD:oreMoonstone"
     },
     {
       "target": "blue",
-      "weight": 200,
+      "weight": 100,
       "id": "OD:oreBlueTopaz"
     },
     {
       "target": "purple",
-      "weight": 200,
+      "weight": 100,
       "id": "OD:oreVioletSapphire"
     },
     {
       "target": "purple",
-      "weight": 200,
+      "weight": 100,
       "id": "OD:oreLepidolite"
     },
     {
       "target": "purple",
-      "weight": 200,
+      "weight": 100,
       "id": "OD:oreAmetrine"
     },
     {
       "target": "black",
-      "weight": 200,
+      "weight": 100,
       "id": "OD:oreBlackDiamond"
     },
     {
       "target": "white",
-      "weight": 200,
+      "weight": 100,
       "id": "OD:oreAlexandrite"
     },
     {
       "target": "white",
-      "weight": 200,
+      "weight": 100,
       "id": "OD:oreChaos"
     },
     {
       "target": "green",
-      "weight": 200,
+      "weight": 100,
       "id": "OD:oreEnderEssence"
-    }
+    },
+	{
+      "target": "pink",
+      "weight": 100,
+      "id": "OD:orePyrope"
+    },
+	{
+      "target": "pink",
+      "weight": 100,
+      "id": "OD:oreCoral"
+    },
+	{
+      "target": "orange",
+      "weight": 100,
+      "id": "OD:oreSunstone"
+    },
+	{
+      "target": "orange",
+      "weight": 100,
+      "id": "OD:oreCatsEye"
+    },
+	{
+      "target": "yellow",
+      "weight": 100,
+      "id": "OD:oreZircon"
+    },
+	{
+      "target": "lime",
+      "weight": 100,
+      "id": "OD:oreJade"
+    },
+	{
+      "target": "lime",
+      "weight": 100,
+      "id": "OD:oreChrysoprase"
+    },
+	{
+      "target": "light_blue",
+      "weight": 100,
+      "id": "OD:oreFluorite"
+    },
+	{
+      "target": "blue",
+      "weight": 100,
+      "id": "OD:oreKyanite"
+    },
+	{
+      "target": "blue",
+      "weight": 100,
+      "id": "OD:oreSodalite"
+    },
+	{
+      "target": "purple",
+      "weight": 100,
+      "id": "OD:oreAmmolite"
+    },
+	{
+      "target": "pink",
+      "weight": 100,
+      "id": "OD:oreKunzite"
+    },
+	{
+      "target": "pink",
+      "weight": 100,
+      "id": "OD:oreRoseQuartz"
+    },
+	{
+      "target": "brown",
+      "weight": 100,
+      "id": "OD:oreTektite"
+    },
+	{
+      "target": "white",
+      "weight": 100,
+      "id": "OD:orePearl"
+    },
+	{
+      "target": "white",
+      "weight": 116,
+      "id": "OD:oreDilithium"
+    },
+	{
+      "target": "gray",
+      "weight": 203,
+      "id": "OD:oreRutile"
+    },
   ]
 }
