@@ -273,12 +273,12 @@
     {
       "target": "yellow",
       "weight": 30,
-      "id": "chisel:limestone2:7"
+      "id": "OD:stoneLimestone"
     },
     {
       "target": "white",
       "weight": 30,
-      "id": "chisel:marble2:7"
+      "id": "OD:stoneMarble"
     },
     {
       "target": "brown",
@@ -286,14 +286,9 @@
       "id": "chisel:brownstone"
     },
     {
-      "target": "black",
-      "weight": 30,
-      "id": "chisel:basalt2:7"
-    },
-    {
       "target": "light_blue",
       "weight": 8,
-      "id": "minecraft:ice"
+      "id": "OD_PREFIX:ice"
     },
     {
       "target": "light_blue",

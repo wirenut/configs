@@ -1,0 +1,199 @@
+{
+    "images":
+    {
+		"black":
+        {
+            "image" : "wirenut:textures/gui/nav-background.png",
+            "posX" : 10,
+            "posY" : 0,
+            "width" : 115,
+            "height" : 4000,
+            "alignment" : "top_left"
+        },
+        "title":
+        {
+            "image" : "wirenut:textures/gui/Wirenut-Logo.png",
+            "posX" : 18,
+            "posY" : 50,
+            "width" : 97,
+            "height" : 34,
+            "alignment" : "top_left"
+        },
+        "player":
+        {
+            "image" : "web:https://minotar.net/avatar/#username#/100.png",
+            "posX" : 42.5,
+            "posY" : -100,
+            "width" : 50,
+            "height" : 50,
+            "alignment" : "bottom_left"
+        }
+		
+    },
+	
+    
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "menu.singleplayer",
+			"texture" : "wirenut:textures/gui/button.png",
+            "posX" : 20,
+            "posY" : -50,
+            "width" : 95,
+            "height" : 20,
+			"alignment" : "left_center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+        
+        "join":
+        {
+            "text" : "Join Server",
+			"texture" : "wirenut:textures/gui/button.png",
+            "posX" : 20,
+            "posY" : -25,
+            "width" : 95,
+            "height" : 20,
+			"alignment" : "left_center",
+            "action" : 
+            {
+                "type" : "connectToServer",
+                "ip" : "mc.wirenut.tk"
+            }
+        },
+                    
+        "options":
+        {
+            "text" : "menu.options",
+			"texture" : "wirenut:textures/gui/button.png",
+            "posX" : 20,
+            "posY" : 0,
+            "width" : 95,
+            "height" : 20,
+			"alignment" : "left_center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+        
+        "language":
+        {
+            "text" : "",
+			"texture" : "wirenut:textures/gui/language-button.png",
+			"posX" : 20,
+            "posY" : 25,
+            "width" : 20,
+            "height" : 20,
+			"mode" : "fill",
+			"alignment" : "left_center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        },
+		
+		"reddit":
+        {
+            "text" : "",
+			"texture" : "wirenut:textures/gui/reddit-button.png",
+			"posX" : 45,
+            "posY" : 25,
+            "width" : 20,
+            "height" : 20,
+			"alignment" : "left_center",
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://reddit.com/r/Wirenut"
+            }
+        },
+		
+		"github":
+        {
+            "text" : "",
+			"texture" : "wirenut:textures/gui/github-button.png",
+			"posX" : 70,
+            "posY" : 25,
+            "width" : 20,
+            "height" : 20,
+			"alignment" : "left_center",
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://github.com/Wirenut"
+            }
+        },
+		
+		"quit":
+        {
+            "text" : "",
+			"texture" : "wirenut:textures/gui/quit-button.png",
+			"posX" : 95,
+            "posY" : 25,
+            "width" : 20,
+            "height" : 20,
+			"alignment" : "left_center",
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        }
+    },
+    
+    "labels":
+    {
+        "mojang":
+        {
+            "text" : "Copyright Mojang AB. Do not distribute!",
+            "posX" : -197,
+            "posY" : -20,
+            "color" : -1,
+            "alignment" : "bottom_right"
+        },
+		"wirenut":
+        {
+            "text" : "Copyright Wirenut!",
+            "posX" : 22,
+            "posY" : -30,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        },
+		"version":
+        {
+            "text" : "Version - 4.0.7",
+            "posX" : 32,
+            "posY" : -20,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        },
+		"welcome": 
+		{
+			"text" : "Welcome #username#!",
+			"posX" : 30,
+            "posY" : 90,
+            "alignment" : "top_left"
+		}
+    },
+	
+	"other": 
+	{
+		"background" :
+		{
+			"image": "",
+			"slideshow":
+			{
+				"images" : ["wirenut:textures/backgrounds/image-1.jpg", "wirenut:textures/backgrounds/image-2.jpg", "wirenut:textures/backgrounds/image-3.jpg", "wirenut:textures/backgrounds/image-4.png"],
+				"displayDuration" : 100,
+				"fadeDuration" : 40,
+				"shuffle" : "true"
+			}
+		}
+	}
+}
