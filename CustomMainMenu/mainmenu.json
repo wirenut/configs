@@ -175,14 +175,6 @@
             "color" : -1,
             "alignment" : "bottom_left"
         },
-		"version":
-        {
-            "text" : "Version - 4.0.8",
-            "posX" : 32,
-            "posY" : -20,
-            "color" : -1,
-            "alignment" : "bottom_left"
-        },
 		"welcome": 
 		{
 			"text" : "Welcome #username#!",
